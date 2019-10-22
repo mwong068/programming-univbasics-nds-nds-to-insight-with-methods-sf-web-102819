@@ -6,7 +6,7 @@ require 'directors_database'
 # { directorOne => allTheMoneyTheyMade, ... }
 
 def directors_totals(nds)
-  result = {}
+  results = {}
     director_index = 0
     
     while director_index < nds.length do
@@ -15,8 +15,8 @@ def directors_totals(nds)
   
     director_index += 1
   end
-  puts result
-  result
+  puts results
+  results
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer

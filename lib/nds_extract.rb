@@ -15,8 +15,8 @@ def directors_totals(nds)
   
     director_index += 1
   end
-  puts results
-  results
+  puts result
+  result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
